@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates|Pacifico|Sedgwick+Ave+Display');
+
+* {
+	outline: 1px solid red;
+	margin: 0;
+	border: 0;
+}
+body {
+	font-family: 'Pacifico', cursive;
+	font-family: 'Sedgwick Ave Display', cursive;
+	font-family: 'Montserrat Alternates', sans-serif;
+}
+header {
+	background: black;
+	padding: 10px;
+
+}
+a {
+	color: white;
+	text-decoration: none;
+	margin: 20px;
+	position: relative;
+	left: 800px;
+	bottom: 50px;
+}
+.log{
+  display: inline-block;
+  position: relative;
+  width: 73px;
+  height: auto;
+  margin-left: 100px;
+  border: solid 2px white;
+  border-radius: 10px;
+  color: white;
+  font-family: 'Montserrat Alternates', sans-serif;
+  background:black;
+  bottom: 50px;
+  left: 700px;
+
+     
+}
+
+footer {
+	background: #333447;
+	padding: 30px;
+
+}
+
+#apple {
+	display: block;
+	position: relative;
+	left: 800px;
+	margin: 10px;
+}
+#play {
+	display: block;
+	position: relative;
+	left: 800px;
+	margin: 15px;
+}
+#micro {
+	display: block;
+	position: relative;
+	left: 800px;
+	margin: 15px;
+}
+span {
+	position: relative;
+	left: 500px;
+	margin: 15px;
+	
+}
+.icon {
+	background-color: white;
+}
