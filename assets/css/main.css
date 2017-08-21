@@ -1,24 +1,39 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates|Pacifico|Sedgwick+Ave+Display');
 
 * {
-	outline: 1px solid red;
+/*	outline: 1px solid red;
+*/	top:0;
+	left:0;
 	margin: 0;
-	border: 0;
+	padding: 0;
+
 }
 body {
 	font-family: 'Pacifico', cursive;
 	font-family: 'Sedgwick Ave Display', cursive;
 	font-family: 'Montserrat Alternates', sans-serif;
 }
+video { 
+  
+  width: 1260px;
+  height: auto;
+}
 header {
-	background: black;
+	background: #333447;
 	padding: 10px;
+	position: fixed;
+	width: 1260px;
+	height: auto;
 
 }
-a {
+nav {
+	background: #333447;
+}
+nav ul  a {
 	color: white;
 	text-decoration: none;
 	margin: 20px;
+	display: inline;
 	position: relative;
 	left: 800px;
 	bottom: 50px;
@@ -39,17 +54,139 @@ a {
 
      
 }
+.form-container {
+  height: 100px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: inline-block;
+  position: relative;
+  left: 800px;
+  bottom: 400px;
+}
+#form-signup-heading{
+  text-align: center;
+  color: #333;
+  text-shadow: 1px 1px 1px #DEDEDE;
+}
 
-footer {
-	background: #333447;
-	padding: 30px;
+.form-signup {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+
+
+.form-signup .checkbox {
+  font-weight: normal;
+}
+
+.form-signup .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-signup .form-control:focus {
+  z-index: 2;
+}
 
 }
 
-#apple {
-	display: block;
+.btn-primary, .btn-primary:hover{
+  background-color: #333;
+  border-color: #333;
+}
+div.phono {
+	background: -webkit-linear-gradient(left top,#442174, purple);
+/*	color: white;
+*/	position: relative;
+	bottom: 100px;
+}
+#smart {
 	position: relative;
 	left: 800px;
+	top: 200px
+}
+.phono1 {
+	position: relative;
+	bottom: 300px;
+}
+.video1 {
+/*	position: relative;
+*/	left: 200px;
+	display: inline-block;
+	float: left;
+}
+.text1 {
+	display: inline-block;
+}
+.video2 {
+	display: inline-block;
+	float: right;
+}
+
+.text2 {
+	left: 200px;
+	display: inline-block;
+
+}
+.video3 {
+	display: inline-block;
+	float: left;
+}
+
+.text3 {
+/*	left: 200px;
+*/	display: inline;
+}
+footer {
+	background: #333447;
+	padding: 30px;
+	position: relative;
+	display: block;
+}
+.cont1 {
+	display: inline-block;
+	position: relative;	
+	right: 400px;
+	color: white;
+	margin: 10px;
+/*	background-color: white;
+*/
+}
+.cont2 {
+	display: inline-block;
+	position: relative;	
+	right: 400px;
+	color: white;
+	margin: 10px;
+
+/*	background-color: white;
+*/
+}
+.cont3 {
+	display: inline-block;
+	position: relative;	
+	right: 600px;
+	color: white;
+	margin: 10px;
+
+/*	background-color: white;
+*/}
+a {
+	color: white;
+	text-decoration: none;
+
+}
+#apple {
+	display: inline-block;
+	position: relative;
+	left: 450px;
 	margin: 10px;
 }
 #play {
@@ -64,12 +201,21 @@ footer {
 	left: 800px;
 	margin: 15px;
 }
+
 span {
 	position: relative;
-	left: 500px;
 	margin: 15px;
 	
 }
+
+hr {
+  height: 3px;
+  background-color: white;
+}
 .icon {
 	background-color: white;
+}
+#iconos {
+	text-align: center;
+	color: white;
 }
