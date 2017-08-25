@@ -5,145 +5,163 @@
 	<title>FlexBox</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 	<link rel="stylesheet" type="text/css" href="assets/fonts/style.css">
+	<link rel="shortcut icon" type="image/x-icon" href="assets/img/lif.ico">
 </head>
 <body>
-	<header>
-		<div>
-			<img class="logo" src="assets/img/lyft/lpink.png" width="100px" width="100px">
-		</div>
-		<nav>
-			<a id="logo" class="logo" href="index.html"></a>
-       		<a id="toggle" class="menu" href="#"></a>
-			<ul>
-				<a href="#">Drive</a>
-				<a href="#">Explore</a>
-				<a href="#">Help</a>
-				<button class="log">Log in</button>
-			</ul>
+	
+		<!--=====================================
+		=            Section Encabezado            =
+		======================================-->
+		<header>
+				<div>
+					<img class="logo" src="assets/img/lyft/lpink.png" width="100px" width="100px">
+				</div>
+				<nav>
+					<a id="logo" class="logo" href="index.html"></a>
+		       		<a id="toggle" class="menu" href="#"></a>
+					<ul>
+						<a href="#">Drive</a>
+						<a href="#">Explore</a>
+						<a href="#">Help</a>
+						<button class="log">Log in</button>
+					</ul>
 
-		</nav>
-	</header>
-	<video id="mivideo" autoplay="autoplay">
-  		<source src="assets/img/lyft/hero-video.mp4" type="video/ogg"></source>
-	</video>
-	<!-- <div class="formulario">
-		<section class="form-container">
-      <div class="container-fluid">
-        <form class="form-signup" action="" method="get" onSubmit="return validateForm(this.form)" >
-          <h2 id="form-signup-heading">
-            TURN MILES INTO MONEY
-          </h2>
-          <div class="celular-container input-box">
-            <input type="text" id="fono" class="form-control"
-            placeholder="Phone number" onKeydown="checkInput(event)" onkeyUp="validaName()" autofocus=""  name="n" >
-            <div id="salida_name"></div>
-          </div>
-          <div class="name-container input-box">
-            <input type="text" id="name" class="form-control"
-            placeholder="Name" onKeydown="checkInput(event)" onkeyUp="validaName()" autofocus=""  name="n" >
-            <div id="salida_name"></div>
-          </div>
-          </div>
-          <div class="email-container input-box">
-            <input type="email" id="input-email" class="form-control" placeholder="Email"  onkeyUp="validaEmail()" >
-            <div for="" id="salida_mail" ></div>
-          </div>
-          <div class="form-group">
-            <input type="ciudad" id="city" class="form-control" placeholder="City"  onkeyUp="validaPass()" >
-             <div for="" id="salida_pass" ></div>
-          </div>
-          <div class="input-group">
-            <div class="input-group-addon"></div>
-            <input type="text" class="form-control" id="input-social" placeholder="Twitter (Opcional)">
-          </div>
-          <div class="checkbox">
-            <label>
-              <input type="checkbox" value="remember-me">
-              <span>Deseo recibir información vía email</span>
-            </label>
-          </div>
-          <div id="salida"></div>
-          <button class="btn btn-lg btn-primary btn-block submit-btn" type="submit">Become a driver</button>
-          <div id="salida_enviar"></div>
-        </form>
-      </div>  
-    </section>
-	</div> -->
-	<div class="phono">
-		<img id="smart" src="assets/img/lyft/phone.png" width="400px" height="400px">
-		<div class="phono1">
-			A RIDE IN MINUTES <br> Request a ride and you´ll be on your way in minutes.<br> Request. Ride Repeat.
-		</div>
-		<div class="phono2">
-			SERIOUS ABOUT SAFETY <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Asperiores harum quisquam 
-		</div>
-		<div class="phono3">
-			HAPPY DRIVERS.<br>HAPPY RIDERS<br>nostrum veritatis, provident maiores<br> deleniti vero earum sunt ex quam modi<br> magni, sed hic atque rerum eveniet? Nam, voluptatum.
-		</div>
-		
-	</div>
-	<div class="videos">
-		<div class="video1">
-			<div class="text1">WATCH<br>AMPLIFY YOUR RIDE<br>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit. <br>Aspernatur, veritatis, accusamus!<br> Laboriosam ducimus error dolor natus<br> neque quis consectetur<br> deleniti magni sapiente expedita,<br> iure animi in corporis<br> inventore architecto. A.</div>
-			<iframe width="755" height="400" src="https://www.youtube.com/embed/fLSmUWOYpKw?rel=0?ecver=1" frameborder="0" allowfullscreen></iframe>
+				</nav>
+			</header>
+
+
+		<!--====  End of Section comment  ====-->
+		<!--=====================================
+
+
+		=            Section video de fondo          =
+		======================================-->
 			
-		</div>
-		<div class="text2" class="video2">
-			<iframe width="755" height="400" src="https://www.youtube.com/embed/v8nyGzOLsdw?rel=0?ecver=1" frameborder="0" allowfullscreen></iframe>
-			<div>
-				WATCH<br>JUNE<br>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit.<br> Aspernatur, veritatis, accusamus!<br> Laboriosam ducimus error<br> dolor natus neque quis consectetur<br> deleniti magni sapiente<br> expedita, iure animi<br> in corporis inventore architecto. A.
+				
+			    <div id="mivideo">
+					<video  autoplay="autoplay">
+			  			<source src="assets/img/lyft/hero-video.mp4" type="video/ogg"></source>
+					</video>
+				
+					<form class="form-container">
+				          <h2 id="form-signup-heading">
+				            TURN MILES INTO MONEY
+				          </h2>
+
+				          <div class="celular">
+				            <input type="text" id="fono" class="form" placeholder="Phone number">
+				          </div>
+				          <div class="name">
+				            <input type="text" id="name" class="form-control" placeholder="Name">
+				          </div>
+				          <div class="email">
+				            <input type="email" id="input-email" class="form-control" placeholder="Email">
+				          </div>
+				          <div class="city">
+				            <input type="ciudad" id="city" class="form-control" placeholder="City">
+				          </div>
+				          <div id="salida"></div>
+				          <button class="btn" type="submit">Become a driver</button>
+					</form>
+				</div>
+			
+		<!--====  End of Section comment  ====-->
+
+		<!--=====================================
+		=            Section phono          =
+		======================================-->
+			<div class="phono">
+				<img id="smart" src="assets/img/lyft/phone.png" width="400px" height="400px">
+				<div class="phono1">
+					A RIDE IN MINUTES <br> Request a ride and you´ll be on your way in minutes.<br> Request. Ride Repeat.
+				</div>
+				<div class="phono2">
+					SERIOUS ABOUT SAFETY <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Asperiores harum quisquam 
+				</div>
+				<div class="phono3">
+					HAPPY DRIVERS.<br>HAPPY RIDERS<br>nostrum veritatis, provident maiores<br> deleniti vero earum sunt ex quam modi<br> magni, sed hic atque rerum eveniet? Nam, voluptatum.
+				</div>
+				
 			</div>
-		</div>
-		<div class="text3" class="video3">
 
-			<iframe width="755" height="400" src="https://www.youtube.com/embed/xj2VWLV0xCU?rel=0?ecver=1" frameborder="0" allowfullscreen></iframe>
-			<div>WATCH<br>A GOOD THING GOING<br>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit.<br> Aspernatur, veritatis, accusamus!<br> Laboriosam ducimus error<br> dolor natus neque quis consectetur<br> deleniti magni sapiente<br> expedita, iure animi in corporis</div>
+		<!--====  End of Section comment  ====-->
+
+		<!--=====================================
+		=            Section videos           =
+		======================================-->
+			<div class="videos">
+				<div class="video1">
+					<div class="text1">WATCH<br>AMPLIFY YOUR RIDE<br>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit. <br>Aspernatur, veritatis, accusamus!<br> Laboriosam ducimus error dolor natus<br> neque quis consectetur<br> deleniti magni sapiente expedita,<br> iure animi in corporis<br> inventore architecto. A.</div>
+					<iframe width="755" height="400" src="https://www.youtube.com/embed/fLSmUWOYpKw?rel=0?ecver=1" frameborder="0" allowfullscreen></iframe>
+					
+				</div>
+				<div class="text2" class="video2">
+					<iframe width="755" height="400" src="https://www.youtube.com/embed/v8nyGzOLsdw?rel=0?ecver=1" frameborder="0" allowfullscreen></iframe>
+					<div>
+						WATCH<br>JUNE<br>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit.<br> Aspernatur, veritatis, accusamus!<br> Laboriosam ducimus error<br> dolor natus neque quis consectetur<br> deleniti magni sapiente<br> expedita, iure animi<br> in corporis inventore architecto. A.
+					</div>
+				</div>
+				<div class="text3" class="video3">
+
+					<iframe width="755" height="400" src="https://www.youtube.com/embed/xj2VWLV0xCU?rel=0?ecver=1" frameborder="0" allowfullscreen></iframe>
+					<div>WATCH<br>A GOOD THING GOING<br>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit.<br> Aspernatur, veritatis, accusamus!<br> Laboriosam ducimus error<br> dolor natus neque quis consectetur<br> deleniti magni sapiente<br> expedita, iure animi in corporis</div>
+					
+				</div>
 			
-		</div>
-	
-	</div>
-	
-	<footer>
-		<div class="cont1">
-			<ul>
-				<li><a href="">LOG IN</a></li>
-				<li><a href="">Help</a></li>
-				<li><a href="">Cities</a></li>
-				<li><a href="">Airports</a></li>
-				<li><a href="">Fare Estimate</a></li>
-			</ul>
-		
-		</div>
-		<div class="cont2">
-			<ul>
-				<li><a href="">PARTNER</a></li>
-				<li><a href="">Partnerships</a></li>
-				<li><a href="">Enterprise</a></li>
-				<li><a href="">Ambassadors</a></li>
-				<li><a href="">Developers</a></li>
-			</ul>
-		</div>
-		<div class="cont3">
-			<ul>
-				<li><a href="">LEARN</a></li>
-				<li><a href="">Safety</a></li>
-				<li><a href="">Blog</a></li>
-				<li><a href="">Press</a></li>
-				<li><a href="">Careers</a></li>
-			</ul>
-		</div>
-		<img id="apple" src="assets/img/lyft/apple.svg" width="100px" height="50px">
-		<img id="play" src="assets/img/lyft/google-play.png" width="100px" height="50px">
-		<img id="micro" src="assets/img/lyft/microsoft.png" width="100px" height="50px">
-		<div id="iconos">
-			<span class="icon-facebook"></span>
-			<span class="icon-instagram"></span>
-			<span class="icon-twitter"></span>
-			<hr></hr>     
-			© 2017 Lyft, Inc TermsPrivacy          
-		</div>
-	</footer>
+			</div>
 
-	
+
+		<!--====  End of Section comment  ====-->
+
+		<!--====================================
+		=            Section footer           =
+		=====================================-->
+			<footer>
+				<center>
+					<div class="cont1">
+					<ul>
+						<li id="demo"><a href="">LOG IN</a></li>
+						<li><a href="">Help</a></li>
+						<li><a href="">Cities</a></li>
+						<li><a href="">Airports</a></li>
+						<li><a href="">Fare Estimate</a></li>
+					</ul>
+				
+				</div>
+				<div class="cont2">
+					<ul>
+						<li id="demo"><a href="">PARTNER</a></li>
+						<li><a href="">Partnerships</a></li>
+						<li><a href="">Enterprise</a></li>
+						<li><a href="">Ambassadors</a></li>
+						<li><a href="">Developers</a></li>
+					</ul>
+				</div>
+				<div class="cont3">
+					<ul>
+						<li id="demo"><a href="">LEARN</a></li>
+						<li><a href="">Safety</a></li>
+						<li><a href="">Blog</a></li>
+						<li><a href="">Press</a></li>
+						<li><a href="">Careers</a></li>
+					</ul>
+				</div>
+				<img id="apple" src="assets/img/lyft/apple.svg" width="100px" height="50px">
+				<img id="play" src="assets/img/lyft/google-play.png" width="100px" height="50px">
+				<img id="micro" src="assets/img/lyft/microsoft.png" width="100px" height="50px">
+				<div id="iconos">
+					<span class="icon-facebook"></span>
+					<span class="icon-instagram"></span>
+					<span class="icon-twitter"></span>
+					<hr></hr>     
+					© 2017 Lyft, Inc TermsPrivacy          
+				</div>
+				</center>
+				
+			</footer>
+
+
+		  <!--====  End of Section comment  ====-->
+		
 </body>
 </html>

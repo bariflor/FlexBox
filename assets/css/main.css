@@ -1,113 +1,102 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates|Pacifico|Sedgwick+Ave+Display');
+/* margen y padding para todo la pagina */
 
 * {
-/*	outline: 1px solid red;
-*/	top:0;
+/*	outline: 1px solid red;	
+*/    top:0;
 	left:0;
-	margin: 0;
+	margin:0px;
 	padding: 0;
+}
 
-}
 body {
-	font-family: 'Pacifico', cursive;
-	font-family: 'Sedgwick Ave Display', cursive;
 	font-family: 'Montserrat Alternates', sans-serif;
+	
 }
-video { 
-  
-  width: 1260px;
-  height: auto;
-}
+
+/*=============================================
+=       Section Cabezera o header          =
+=============================================*/
 header {
-	background: #333447;
+	background-image: linear-gradient (#76278f, #2B1E66);
 	padding: 10px;
 	position: fixed;
-	width: 1260px;
-	height: auto;
+	width: 100%;
+	height: 80px;
+/*	z-index: 1000;*/
+}
+.logo {
+	position: fixed;
+}
 
-}
-nav {
-	background: #333447;
-}
 nav ul  a {
-	color: white;
+	color: #FFFFFF;
 	text-decoration: none;
 	margin: 20px;
 	display: inline;
 	position: relative;
 	left: 800px;
-	bottom: 50px;
+	bottom: 10px;
+	top: 20px;
+	font-size: 20px;
 }
 .log{
-  display: inline-block;
-  position: relative;
-  width: 73px;
-  height: auto;
-  margin-left: 100px;
-  border: solid 2px white;
-  border-radius: 10px;
-  color: white;
-  font-family: 'Montserrat Alternates', sans-serif;
-  background:black;
-  bottom: 50px;
-  left: 700px;
-
-     
+	  display: inline-block;
+	  position: relative;
+	  width: 80px;
+	  height: 40px;
+	  margin-left: 100px;
+	  border: solid 2px white;
+	  border-radius: 10px;
+	  color: white;
+	  font-family: 'Montserrat Alternates', sans-serif;
+	  font-size: 20px;
+	  background:#333447;
+	  bottom: 50px;
+	  top: 20px;
+	  left: 700px;   
 }
+/*=====  End of Section comment block  ======*/
+/*=============================================
+
+
+=            Section video como fondo            =
+=============================================*/
+video { 
+  width: 100%;
+  height: auto;
+  border:0;
+}
+/*=====  End of Section comment block  ======*/
+
+
+/*=============================================
+=            Section Formulario            =
+=============================================*/
 .form-container {
   height: 100px;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  display: inline-block;
-  position: relative;
-  left: 800px;
-  bottom: 400px;
-}
-#form-signup-heading{
-  text-align: center;
-  color: #333;
-  text-shadow: 1px 1px 1px #DEDEDE;
-}
-
-.form-signup {
-  max-width: 330px;
-  padding: 15px;
-  margin: 0 auto;
+  width: 100PX;
+  margin-bottom: 800px;
+  margin-left: 200px;
+  
 }
 
 
 
-.form-signup .checkbox {
-  font-weight: normal;
-}
+/*=====  End of Section comment block  ======*/
 
-.form-signup .form-control {
-  position: relative;
-  height: auto;
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-  padding: 10px;
-  font-size: 16px;
-}
 
-.form-signup .form-control:focus {
-  z-index: 2;
-}
 
-}
-
-.btn-primary, .btn-primary:hover{
-  background-color: #333;
-  border-color: #333;
-}
+/*=============================================
+=     sección II, Imagen de telefono            =
+=============================================*/
 div.phono {
-	background: -webkit-linear-gradient(left top,#442174, purple);
-/*	color: white;
-*/	position: relative;
-	bottom: 100px;
-}
-#smart {
+	background: -webkit-linear-gradient(purple,#442174);
+	width: 100%;
+	height: auto;
+/*	margin-top: -5;
+*/}
+img #smart {
 	position: relative;
 	left: 800px;
 	top: 200px
@@ -116,9 +105,14 @@ div.phono {
 	position: relative;
 	bottom: 300px;
 }
+/*=====  End of Section comment block  ======*/
+
+
+/*=============================================
+=            Sección de Videos            =
+=============================================*/
 .video1 {
-/*	position: relative;
-*/	left: 200px;
+	left: 200px;
 	display: inline-block;
 	float: left;
 }
@@ -129,21 +123,24 @@ div.phono {
 	display: inline-block;
 	float: right;
 }
-
 .text2 {
 	left: 200px;
 	display: inline-block;
-
 }
 .video3 {
 	display: inline-block;
 	float: left;
 }
-
 .text3 {
-/*	left: 200px;
-*/	display: inline;
+	display: inline;
 }
+/*=====  End of Section comment block  ======*/
+
+
+
+/*=============================================
+=  Sección de Pie de página o Footer        =
+=============================================*/
 footer {
 	background: #333447;
 	padding: 30px;
@@ -155,61 +152,69 @@ footer {
 	position: relative;	
 	right: 400px;
 	color: white;
-	margin: 10px;
-/*	background-color: white;
-*/
+	margin: 20px;
+}
+ul li {
+	list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    text-align: left;
+}
+ul li #demo{
+	font-size: 48px; 
 }
 .cont2 {
 	display: inline-block;
 	position: relative;	
-	right: 400px;
+	right: 500px;
 	color: white;
-	margin: 10px;
-
-/*	background-color: white;
-*/
+	margin: 20px;
 }
 .cont3 {
 	display: inline-block;
 	position: relative;	
 	right: 600px;
 	color: white;
-	margin: 10px;
-
-/*	background-color: white;
-*/}
+	margin: 20px;
+}
 a {
 	color: white;
 	text-decoration: none;
-
 }
 #apple {
 	display: inline-block;
 	position: relative;
 	left: 450px;
-	margin: 10px;
+	margin: 8px;
 }
 #play {
 	display: block;
 	position: relative;
-	left: 800px;
+	left: 650px;
+	bottom: 50px;
 	margin: 15px;
+	width: 120px;
+
 }
 #micro {
 	display: block;
 	position: relative;
-	left: 800px;
+	width: 120px;
+	left: 650px;
 	margin: 15px;
 }
 
 span {
 	position: relative;
 	margin: 15px;
+	border-radius: 50px;
+	border: 2px solid white;
+	padding: 5px;
 	
 }
 
 hr {
-  height: 3px;
+  height: 1px;
   background-color: white;
 }
 .icon {
@@ -219,3 +224,5 @@ hr {
 	text-align: center;
 	color: white;
 }
+
+/*=====  End of Section comment block  ======*/
