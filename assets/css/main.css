@@ -3,9 +3,8 @@
 
 * {
 /*	outline: 1px solid red;	
-*/    top:0;
-	left:0;
-	margin:0px;
+*/
+	margin:0;
 	padding: 0;
 }
 
@@ -23,10 +22,12 @@ header {
 	position: fixed;
 	width: 100%;
 	height: 80px;
-/*	z-index: 1000;*/
 }
 .logo {
 	position: fixed;
+}
+a:hover{
+	color:#ec008c;
 }
 
 nav ul  a {
@@ -40,7 +41,7 @@ nav ul  a {
 	top: 20px;
 	font-size: 20px;
 }
-.log{
+.boton{
 	  display: inline-block;
 	  position: relative;
 	  width: 80px;
@@ -64,8 +65,7 @@ nav ul  a {
 =============================================*/
 video { 
   width: 100%;
-  height: auto;
-  border:0;
+  height: 100%;
 }
 /*=====  End of Section comment block  ======*/
 
@@ -74,11 +74,12 @@ video {
 =            Section Formulario            =
 =============================================*/
 .form-container {
-  height: 100px;
-  width: 100PX;
-  margin-bottom: 800px;
-  margin-left: 200px;
-  
+	background-color: white;
+    height: 400px;
+    width: 500px;
+    float: right;
+    position: absolute;
+    left: 765px;
 }
 
 
@@ -90,49 +91,53 @@ video {
 /*=============================================
 =     sección II, Imagen de telefono            =
 =============================================*/
-div.phono {
+.phono {
 	background: -webkit-linear-gradient(purple,#442174);
 	width: 100%;
-	height: auto;
-/*	margin-top: -5;
+	height: 700px;
+}
+.desc {
+	width: 400px;	
+}
+#smart {
+	float: right;
+/*	margin-bottom: 200px;
 */}
-img #smart {
-	position: relative;
-	left: 800px;
-	top: 200px
-}
-.phono1 {
-	position: relative;
-	bottom: 300px;
-}
-/*=====  End of Section comment block  ======*/
+
+/*=====  End of Section comment block  ======
 
 
 /*=============================================
 =            Sección de Videos            =
 =============================================*/
-.video1 {
-	left: 200px;
-	display: inline-block;
-	float: left;
+.videos {
+	width: 100%;
+	background-color: pink ;
 }
 .text1 {
-	display: inline-block;
+
+	height: 250px;
+	width: 350px;
+	position: relative;
+/*	top: 400px;
+*/	margin-left: 100px;
 }
-.video2 {
-	display: inline-block;
+.ver1 {
 	float: right;
+
 }
 .text2 {
-	left: 200px;
-	display: inline-block;
+	float: right;
+	margin-top: 100px;
+	margin-right: 150px;
 }
-.video3 {
-	display: inline-block;
-	float: left;
+.ver2 {
+	float: right;
 }
 .text3 {
-	display: inline;
+	height: 400px;
+	margin-top: 0px;
+	margin-left: 100px;
 }
 /*=====  End of Section comment block  ======*/
 
@@ -147,10 +152,12 @@ footer {
 	position: relative;
 	display: block;
 }
+/*.cont:hover{
+	color: #ec008c;
+	background-color: black;
+}*/
 .cont1 {
 	display: inline-block;
-	position: relative;	
-	right: 400px;
 	color: white;
 	margin: 20px;
 }
@@ -164,16 +171,12 @@ ul li #demo{
 	font-size: 48px; 
 }
 .cont2 {
-	display: inline-block;
-	position: relative;	
-	right: 500px;
+	display: inline-block;	
 	color: white;
 	margin: 20px;
 }
 .cont3 {
-	display: inline-block;
-	position: relative;	
-	right: 600px;
+	display: inline-block;	
 	color: white;
 	margin: 20px;
 }
@@ -182,26 +185,21 @@ a {
 	text-decoration: none;
 }
 #apple {
-	display: inline-block;
 	position: relative;
-	left: 450px;
-	margin: 8px;
+	bottom: 120px;
+	left: 105px;
 }
 #play {
-	display: block;
 	position: relative;
-	left: 650px;
-	bottom: 50px;
-	margin: 15px;
-	width: 120px;
+	
+	width: 120px;*/
 
 }
 #micro {
-	display: block;
 	position: relative;
+	bottom: 60px;
+	left: -125px;
 	width: 120px;
-	left: 650px;
-	margin: 15px;
 }
 
 span {
@@ -210,7 +208,7 @@ span {
 	border-radius: 50px;
 	border: 2px solid white;
 	padding: 5px;
-	
+	bottom: 10px;
 }
 
 hr {
@@ -223,6 +221,10 @@ hr {
 #iconos {
 	text-align: center;
 	color: white;
+}
+p#privacy {
+	position: relative;
+	top: 10px;
 }
 
 /*=====  End of Section comment block  ======*/
